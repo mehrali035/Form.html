@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* container1 css  */
+.container1 h1{
+    margin: 18px 18px;
+}
+.container1 p{
+     margin: 18px 18px;
+}
+label{
+    margin: 0 10px;
+}
+input[type="text"] {
+     width: 100%;
+     outline: none;
+     height: 50px;
+     margin: 10px 5px;
+     padding: 0 0 0 5px;
+     background: #f1f1f1;
+     border: none;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    background-color: rgb(230, 225, 225);
+}
+hr{
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+/* Button css  */
+.btn{ 
+    width:100%;
+    background-color: #04AA6D;
+    height: 49px;
+    border: none;
+    margin: 0px 5px 0px 5px;
+    opacity: 0.9;
+}
+.btn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+/* signin css */
+.signin{
+    background-color: #f1f1f1;
+    text-align: center;
+}
